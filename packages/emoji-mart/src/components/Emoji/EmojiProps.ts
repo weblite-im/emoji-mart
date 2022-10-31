@@ -17,6 +17,9 @@ export default {
     },
   },
 
+  spritesheet: '',
+  spritesheetUrl: '',
+
   // Shared
   set: PickerProps.set,
   skin: PickerProps.skin,
