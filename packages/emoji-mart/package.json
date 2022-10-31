@@ -1,12 +1,12 @@
 {
-  "name": "emoji-mart",
-  "version": "5.2.2",
+  "name": "@web-lite/emoji-mart",
+  "version": "5.2.4",
   "description": "Emoji picker for the web",
   "license": "MIT",
   "homepage": "https://missiveapp.com/open/emoji-mart",
   "repository": {
     "type": "git",
-    "url": "https://github.com/missive/emoji-mart",
+    "url": "https://github.com/weblite-im/emoji-mart",
     "directory": "packages/emoji-mart"
   },
   "source": "src/index.ts",
