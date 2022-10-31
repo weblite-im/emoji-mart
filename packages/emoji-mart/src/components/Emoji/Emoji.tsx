@@ -30,8 +30,8 @@ export default function Emoji(props) {
       : undefined)
 
   const spritesheetSrc =
-    props.spritesheetUrl
-      ? props.spritesheetUrl.replace(/{EMOJI_SET}/g, props.set)
+    props.spritesheeturl
+      ? props.spritesheeturl.replace(/{EMOJI_SET}/g, props.set)
       : typeof props.getSpritesheetURL === 'function'
         ? props.getSpritesheetURL(props.set)
         : `https://cdn.jsdelivr.net/npm/emoji-datasource-${props.set}@14.0.0/img/${props.set}/sheets-256/64.png`
