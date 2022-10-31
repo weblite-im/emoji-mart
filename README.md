@@ -7,10 +7,19 @@
 </div>
 
 ## 📖 Table of Contents
+- [� Table of Contents](#-table-of-contents)
 - [💾 Data](#-data)
+  - [Bundled directly into your codebase](#bundled-directly-into-your-codebase)
+  - [Fetched remotely](#fetched-remotely)
 - [🏪 Picker](#-picker)
+  - [React](#react)
+  - [Browser](#browser)
+  - [Options / Props](#options--props)
+  - [Custom emojis](#custom-emojis)
+  - [Custom category icons](#custom-category-icons)
 - [🙃 Emoji component](#-emoji-component)
-- [🕵️‍♀️ Headless search](#%EF%B8%8F%EF%B8%8F-headless-search)
+  - [Attributes / Props](#attributes--props)
+- [🕵️‍♀️ Headless search](#️️-headless-search)
 - [🔬 Get emoji data from native](#-get-emoji-data-from-native)
 - [🗺 Internationalization](#-internationalization)
 - [📚 Examples](#-examples)
@@ -213,6 +222,8 @@ Then you can use the emoji component in your HTML / JSX.
 | **fallback** | `:shrug:` | A string to be rendered in case the emoji can’t be found |
 | **set** | `native` | The emoji set: `native`, `apple`, `facebook`, `google`, `twitter` |
 | **skin** | `1` | The emoji skin tone: `1`, `2`, `3`, `4`, `5`, `6` |
+| **spritesheet** | `true` | Whether to use spritesheets or not |
+| **spritesheeturl** | `https://example.com/{EMOJI_SET}/sprite.png` | URL of the spritesheet, `{EMOJI_SET}` will be replaced by the actual set name |
 
 ## 🕵️‍♀️ Headless search
 You can search without the Picker. Just like the emoji component, `data` needs to be initialized first in order to use the search index.
